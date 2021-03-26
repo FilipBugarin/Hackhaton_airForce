@@ -1,0 +1,68 @@
+.Flights {
+    margin: 20px;
+}
+
+.Flights-input {
+    width: 400px;
+    margin: 0 10px !important;
+    border: 20px solid #000;
+}
+
+.Flights-list {
+    margin: 20px 5px;
+}
+
+.Flights-suggestion {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    height: 110px;
+    width: 229px;
+    margin: 10px;
+    padding: 10px;
+    background-color:rgba(49, 94, 145, 0.5);
+    cursor: pointer;
+    border-radius: 10%;
+    transition: all ease-in-out 0.2s;    
+}
+
+.Flights-suggestion :hover {
+    background-color: #43b1ff;
+}
+
+.Flights-suggestion-iata {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: 1px solid #444;
+    padding: 3px;
+}
+
+.Flights-suggestion-city {
+    margin-top: 26px;
+}
+
+.Flights-error {
+    width: fit-content;
+    margin: 50px auto;
+    padding: 20px;
+    background-color:rgba(49, 94, 145, 0.5);
+    border-radius: 3px;
+}
+
+.Flight-details {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #dedede;
+    height: 100px;
+    width: 230px;
+    border-radius: 5px;
+    transition: all ease-in-out 0.2s;
+    text-decoration: none;
+    color: black;
+}
+
+.Flight-details :hover {
+    background-color: #b8dfff;
+}
