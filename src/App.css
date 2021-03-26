@@ -133,7 +133,7 @@ h6 {
 }
 
 .show-nav {
-  height: 150px;
+  height: 200px;
 }
 @media screen and (min-width: 768px) {
   .nav-btn {
